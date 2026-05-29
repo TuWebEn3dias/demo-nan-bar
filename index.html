@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nan Bar | Bar Nocturno & Pizza | Palermo Soho</title>
+<meta name="description" content="Nan Bar en Palermo Soho. Abierto todos los días de 00:00 a 06:00. Pizzas artesanales, hamburguesas, música y la mejor noche de Buenos Aires.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://tuweben3dias.github.io/demo-nan-bar/">
+<meta property="og:title" content="Nan Bar | La noche empieza cuando todos se van">
+<meta property="og:description" content="Bar nocturno & pizza en Palermo Soho. Abierto todos los días de 00:00 a 06:00.">
+<meta property="og:url" content="https://tuweben3dias.github.io/demo-nan-bar/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://tuweben3dias.github.io/demo-nan-bar/imgs/placeholder-hero.svg">
+<meta property="og:locale" content="es_AR">
+<link rel="alternate" hreflang="es" href="https://tuweben3dias.github.io/demo-nan-bar/">
+<link rel="alternate" hreflang="en" href="https://tuweben3dias.github.io/demo-nan-bar/en/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍕</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNGLL9WG7B"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-WNGLL9WG7B');
+</script>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "BarOrPub",
+"name": "Nan Bar",
+"description": "Bar nocturno y pizzería en Palermo Soho. Abierto todos los días de medianoche a 6 AM.",
+"url": "https://tuweben3dias.github.io/demo-nan-bar/",
+"telephone": "+5493447403833",
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "Gorriti 4647",
+"addressLocality": "Palermo Soho",
+"addressRegion": "CABA",
+"addressCountry": "AR",
+"postalCode": "C1414"
+},
+"openingHoursSpecification": {
+"@type": "OpeningHoursSpecification",
+"dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+"opens": "00:00",
+"closes": "06:00"
+},
+"priceRange": "$$",
+"servesCuisine": ["Pizza", "Hamburguesas", "Bar"]
+}
+</script>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+<div class="navbar__brand">
+<a href="#hero" class="navbar__logo">NAN</a>
+</div>
+<ul class="navbar__links" id="navLinks">
+<li><a href="#hero" class="navbar__link active" data-i18n="inicio">Inicio</a></li>
+<li><a href="#carta" class="navbar__link" data-i18n="carta">Carta</a></li>
+<li><a href="#galeria" class="navbar__link" data-i18n="galeria">Galería</a></li>
+<li><a href="#eventos" class="navbar__link" data-i18n="eventos">Eventos</a></li>
+<li><a href="#reservas" class="navbar__link" data-i18n="reservar">Reservar</a></li>
+<li><a href="#como-llegar" class="navbar__link" data-i18n="comollegar">Cómo llegar</a></li>
+</ul>
+<div class="navbar__actions">
+<a href="en/" class="navbar__lang" data-i18n="lang-switch">EN</a>
+<button class="navbar__toggle" id="navToggle" aria-label="Menú">
+<span></span><span></span><span></span>
+</button>
+</div>
+</nav>
+
+<main>
+<section class="hero" id="hero">
+<div class="hero__decor" aria-hidden="true">
+<span class="hero__emoji hero__emoji--pizza">🍕</span>
+<span class="hero__emoji hero__emoji--cocktail">🍸</span>
+<span class="hero__emoji hero__emoji--moon">🌙</span>
+<span class="hero__emoji hero__emoji--star">✨</span>
+</div>
+<div class="hero__content">
+<h1 class="hero__title">Nan Bar</h1>
+<p class="hero__tagline" data-i18n="tagline">La noche empieza cuando todos se van.</p>
+<p class="hero__info">Gorriti 4647, Palermo Soho <span class="hero__sep">|</span> Todos los días 00:00–06:00</p>
+<div class="hero__actions">
+<a href="https://wa.me/5493447403833" target="_blank" rel="noopener" class="btn btn--primary">
+<span class="btn__icon">💬</span> <span data-i18n="cta-wa">Reserva por WhatsApp</span>
+</a>
+<a href="#carta" class="btn btn--outline" data-i18n="cta-menu">Ver Carta</a>
+</div>
+</div>
+</section>
+
+<section class="section section--carta" id="carta">
+<div class="container">
+<h2 class="section__title" data-i18n="menu-title">Nuestra Carta</h2>
+<p class="section__subtitle" data-i18n="menu-sub">Pizzas artesanales de 8 porciones</p>
+
+<div class="menu">
+<div class="menu__category">
+<h3 class="menu__cat-title">
+<span class="menu__emoji">🍕</span>
+<span data-i18n="pizzas">Pizzas</span>
+</h3>
+<div class="menu__items">
+<div class="menu__item"><span class="menu__name">Muzzarella</span><span class="menu__price">$8.000</span></div>
+<div class="menu__item"><span class="menu__name">Napolitana</span><span class="menu__price">$9.000</span></div>
+<div class="menu__item"><span class="menu__name">Fugazzeta</span><span class="menu__price">$8.300</span></div>
+<div class="menu__item"><span class="menu__name">Capresse</span><span class="menu__price">$9.000</span></div>
+<div class="menu__item"><span class="menu__name">Especial</span><span class="menu__price">$10.000</span></div>
+</div>
+</div>
+
+<div class="menu__category">
+<h3 class="menu__cat-title">
+<span class="menu__emoji">🍔</span>
+<span data-i18n="hamburguesas">Hamburguesas</span>
+</h3>
+<div class="menu__items">
+<div class="menu__item"><span class="menu__name">Completa</span><span class="menu__price">$7.500</span></div>
+<div class="menu__item"><span class="menu__name">Simple</span><span class="menu__price">$6.500</span></div>
+</div>
+</div>
+
+<div class="menu__category">
+<h3 class="menu__cat-title">
+<span class="menu__emoji">🍟</span>
+<span data-i18n="para-compartir">Para Compartir</span>
+</h3>
+<div class="menu__items">
+<div class="menu__item"><span class="menu__name">Papas Cheddar/Bacon</span><span class="menu__price">$5.500</span></div>
+<div class="menu__item"><span class="menu__name">Picada Caliente</span><span class="menu__price">$8.500</span></div>
+<div class="menu__item"><span class="menu__name">Chicken Tenders</span><span class="menu__price">$6.000</span></div>
+<div class="menu__item"><span class="menu__name">Bastoncitos de Muzzarella</span><span class="menu__price">$5.500</span></div>
+</div>
+</div>
+
+<div class="menu__category menu__category--featured">
+<h3 class="menu__cat-title">
+<span class="menu__emoji">🔥</span>
+<span data-i18n="combos">Combos</span>
+</h3>
+<div class="menu__items">
+<div class="menu__item"><span class="menu__name">Hamburguesa + Papas + Bebida</span><span class="menu__price">$7.500</span></div>
+<div class="menu__item"><span class="menu__name">Doble Hamburguesa + Papas + Bebida</span><span class="menu__price">$8.500</span></div>
+</div>
+</div>
+</div>
+
+<div class="menu__pdf">
+<a href="docs/menu.pdf" target="_blank" rel="noopener" class="btn btn--outline">
+<span class="btn__icon">📄</span> <span data-i18n="descargar-menu">Descargar Menú PDF</span>
+</a>
+</div>
+</div>
+</section>
+
+<section class="section section--galeria" id="galeria">
+<div class="container">
+<h2 class="section__title" data-i18n="galeria-title">Galería</h2>
+<p class="section__subtitle" data-i18n="galeria-sub">El ambiente de Nan Bar</p>
+<div class="gallery">
+<div class="gallery__item">
+<div class="gallery__img">
+<img src="imgs/placeholder-gallery-1.svg" alt="Barra y ambiente de Nan Bar" loading="lazy">
+</div>
+</div>
+<div class="gallery__item">
+<div class="gallery__img">
+<img src="imgs/placeholder-gallery-2.svg" alt="Noche en Nan Bar" loading="lazy">
+</div>
+</div>
+<div class="gallery__item">
+<div class="gallery__img">
+<img src="imgs/placeholder-gallery-3.svg" alt="Fiesta en Nan Bar" loading="lazy">
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section section--eventos" id="eventos">
+<div class="container">
+<h2 class="section__title" data-i18n="eventos-title">Vida Nocturna</h2>
+<p class="section__subtitle" data-i18n="eventos-sub">El after party que estabas buscando</p>
+<div class="eventos">
+<div class="eventos__card">
+<span class="eventos__icon">🌙</span>
+<h3 class="eventos__title" data-i18n="eventos-after">After Party</h3>
+<p class="eventos__text" data-i18n="eventos-after-text">Seguí la noche cuando todos los demás cierran. Abierto hasta las 6 AM todos los días.</p>
+</div>
+<div class="eventos__card">
+<span class="eventos__icon">🎧</span>
+<h3 class="eventos__title" data-i18n="eventos-music">Música en Vivo</h3>
+<p class="eventos__text" data-i18n="eventos-music-text">DJ sets y música para mantener la energía toda la madrugada.</p>
+</div>
+<div class="eventos__card">
+<span class="eventos__icon">🍕</span>
+<h3 class="eventos__title" data-i18n="eventos-food">Pizza Nocturna</h3>
+<p class="eventos__text" data-i18n="eventos-food-text">Las mejores pizzas artesanales para cerrar la noche como se debe.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section section--reservas" id="reservas">
+<div class="container">
+<h2 class="section__title" data-i18n="reservas-title">Reservá tu Mesa</h2>
+<p class="section__subtitle" data-i18n="reservas-sub">Hace tu reserva por WhatsApp en segundos</p>
+<form class="form" id="reservaForm">
+<div class="form__group">
+<label for="formNombre" class="form__label" data-i18n="form-nombre">Nombre</label>
+<input type="text" id="formNombre" class="form__input" required placeholder="Tu nombre">
+</div>
+<div class="form__group">
+<label for="formFecha" class="form__label" data-i18n="form-fecha">Fecha</label>
+<input type="date" id="formFecha" class="form__input" required>
+</div>
+<div class="form__group">
+<label for="formPersonas" class="form__label" data-i18n="form-personas">Personas</label>
+<input type="number" id="formPersonas" class="form__input" required min="1" max="20" placeholder="2">
+</div>
+<div class="form__group">
+<label for="formTel" class="form__label" data-i18n="form-tel">Teléfono</label>
+<input type="tel" id="formTel" class="form__input" required placeholder="+54 11 2345-6789">
+</div>
+<div class="form__group form__group--full">
+<label for="formMensaje" class="form__label" data-i18n="form-mensaje">Mensaje</label>
+<textarea id="formMensaje" class="form__input form__textarea" rows="3" placeholder="Alguna sugerencia o consulta..." data-i18n-placeholder="form-mensaje-placeholder"></textarea>
+</div>
+<button type="submit" class="btn btn--primary btn--full">
+<span class="btn__icon">💬</span> <span data-i18n="form-enviar">Enviar Reserva por WhatsApp</span>
+</button>
+</form>
+</div>
+</section>
+
+<section class="section section--ubicacion" id="como-llegar">
+<div class="container">
+<h2 class="section__title" data-i18n="ubicacion-title">Cómo llegar</h2>
+<p class="section__subtitle">Gorriti 4647, Palermo Soho, C1414 CABA</p>
+<div class="ubicacion">
+<div class="ubicacion__map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.809!2d-58.4273!3d-34.5871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbaf5bf08bf7%3A0xf54df7b32f7af1f5!2sGorriti%204647%2C%20C1414%20CABA!5e0!3m2!1ses!2sar!4v1" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación de Nan Bar"></iframe>
+</div>
+<div class="ubicacion__info">
+<div class="ubicacion__detail">
+<span class="ubicacion__icon">📍</span>
+<div>
+<p class="ubicacion__label" data-i18n="direccion">Dirección</p>
+<p class="ubicacion__value">Gorriti 4647, Palermo Soho</p>
+</div>
+</div>
+<div class="ubicacion__detail">
+<span class="ubicacion__icon">🕐</span>
+<div>
+<p class="ubicacion__label" data-i18n="horarios">Horarios</p>
+<p class="ubicacion__value" data-i18n="horarios-value">Todos los días 00:00 – 06:00</p>
+</div>
+</div>
+<div class="ubicacion__detail">
+<span class="ubicacion__icon">📸</span>
+<div>
+<p class="ubicacion__label">Instagram</p>
+<a href="https://www.instagram.com/nanbarsoho/" target="_blank" rel="noopener" class="ubicacion__link">@nanbarsoho</a>
+</div>
+</div>
+<div class="ubicacion__cta">
+<a href="https://wa.me/5493447403833" target="_blank" rel="noopener" class="btn btn--primary">
+<span class="btn__icon">💬</span> <span data-i18n="cta-wa-bottom">Contactanos por WhatsApp</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<div class="container">
+<div class="footer__content">
+<div class="footer__brand">
+<h3>Nan Bar</h3>
+<p data-i18n="footer-tag">La noche empieza cuando todos se van.</p>
+</div>
+<div class="footer__links">
+<a href="https://www.instagram.com/nanbarsoho/" target="_blank" rel="noopener">Instagram</a>
+<a href="qr/qr-menu.svg" target="_blank" rel="nopener" data-i18n="qr-menu">QR Menú</a>
+</div>
+</div>
+<p class="footer__credit">Hecho con ❤️ por <a href="https://tuweben3dias.com" target="_blank" rel="nopener">TuWebEn3Días</a></p>
+</div>
+</footer>
+
+<div class="whatsapp-float">
+<a href="https://wa.me/5493447403833" target="_blank" rel="noopener" aria-label="WhatsApp">
+<svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.377l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

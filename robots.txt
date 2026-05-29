@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /en/
+Allow: /docs/
+Allow: /imgs/
+Allow: /css/
+Allow: /js/
+
+Disallow: /qr/
+
+Sitemap: https://tuweben3dias.github.io/demo-nan-bar/sitemap.xml
